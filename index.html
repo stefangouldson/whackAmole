@@ -8,8 +8,42 @@
     <link href="./main.css" rel="stylesheet">
 </head>
 <body>
-    
+    <div id="title-box">
+        <h1 id="title">Whack-A-Mole</h1>
+    </div>
 
+    <div id="top">
+        <p>Welcome to Whack-A-Mole! <br> The goal of the game is to hit the mole when he appears<br>Press the button to play and reload the page to start again</p>
+        <button id="play" onclick="thePlay()">LETS HIT SOMETHING</button>
+        <h2 id="score">0</h2>
+    </div>
+    
+<!-- Defines spaces on web page for mole to jump out -->
+    <div class="row">
+
+    <div class="innerCol">
+        <div class="spot"><img class="placeImg" src="blank.png"></div>
+        <div class="spot"><img class="placeImg" src="blank.png"></div>
+        <div class="spot"><img class="placeImg" src="blank.png"></div>
+        <div class="spot"><img class="placeImg" src="blank.png"></div>
+    </div>
+
+    <div class="innerCol">
+        <div class="spot"><img class="placeImg" src="blank.png"></div>
+        <div class="spot"><img class="placeImg" src="blank.png"></div>
+        <div class="spot"><img class="placeImg" src="blank.png"></div>
+        <div class="spot"><img class="placeImg" src="blank.png"></div>
+    </div>
+
+    <div class="innerCol">
+        <div class="spot"><img class="placeImg" src="blank.png"></div>
+        <div class="spot"><img class="placeImg" src="blank.png"></div>
+        <div class="spot"><img class="placeImg" src="blank.png"></div>
+        <div class="spot"><img class="placeImg" src="blank.png"></div>
+    </div>
+
+    </div>
+<!-- End div for spaces -->
 
 <script src="./script.js"></script>
 </body>
