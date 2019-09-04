@@ -8,17 +8,20 @@
     <link href="./main.css" rel="stylesheet">
 </head>
 <body>
+    
     <div id="title-box">
         <h1 id="title">Whack-A-Mole</h1>
     </div>
 
+    <!-- Top of the page containing instructions, play button and score -->
     <div id="top">
         <p>Welcome to Whack-A-Mole! <br> The goal of the game is to hit the mole when he appears<br>Press the button to play and reload the page to start again</p>
         <button id="play" onclick="thePlay()">LETS HIT SOMETHING</button>
-        <h2 id="score">0</h2>
+        <h2 id="score">Score</h2>
     </div>
     
 <!-- Defines spaces on web page for mole to jump out -->
+<!-- Used boostrap because stuart wouldn't shut up about it -->
     <div class="row">
 
     <div class="innerCol">
@@ -44,9 +47,7 @@
 
     </div>
 <!-- End div for spaces -->
-<div id="button-box">
-<button id="example" onclick="addTotal()"></button>
-</div>
+
 
 <script src="./script.js"></script>
 </body>

@@ -1,3 +1,4 @@
+/* sort out background */
 body{
     margin: 0px;
     padding: 0px;
@@ -6,6 +7,7 @@ body{
     background-repeat: no-repeat;
 }
 
+/* title content */
 #title-box{
     display: flex;
     justify-content: center;
@@ -15,6 +17,7 @@ body{
     text-shadow: 2px 2px black;
 }
 
+/* rules for the top of the page */
 #top{
     display: flex;
     flex-direction: column;
@@ -24,6 +27,7 @@ body{
     text-shadow: 1px 1px black;
 }
 
+/* play button options */
 #play{
     margin-top: 1%;
     font-size: 150%;
@@ -42,7 +46,7 @@ body{
     color: transparent;
     background-color: transparent
 }
-
+/* Places green box in center and puts space between columns */
 .row{
     display: flex;
     flex-direction: row;
@@ -54,7 +58,7 @@ body{
     background-color: darkgreen;
     margin-bottom: 100px;
 }
-
+/* puts boxes in columns and space between them */
 .innerCol{
     display: flex;
     flex-direction: column;
@@ -64,7 +68,7 @@ body{
     text-align: center;
     border-radius: 20px
 }
-
+/* box outside the image */
 .spot{
     height: 24%;
     width: 200px;
@@ -73,24 +77,8 @@ body{
     align-items: center;
     justify-content: center;
 }
-
+/* size of mole */
 .placeImg{
     height: 90px;
     width: 100px;
-}
-
-
-#button-box{
-    display: flex;
-    justify-content: center;
-}
-
-#example{
-    background-image: url(./mole.png);
-    background-size: cover;
-    width: 400px;
-    height: 300px;
-    border: none;
-    font-size: 200%;
-    background-color: green;
 }
