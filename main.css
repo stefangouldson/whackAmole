@@ -79,6 +79,18 @@ body{
     width: 100px;
 }
 
-.btn{
-    background-color: blue;
+
+#button-box{
+    display: flex;
+    justify-content: center;
+}
+
+#example{
+    background-image: url(./mole.png);
+    background-size: cover;
+    width: 400px;
+    height: 300px;
+    border: none;
+    font-size: 200%;
+    background-color: green;
 }

@@ -1,6 +1,9 @@
 let img="./mole.png"
 let place=document.getElementsByClassName("placeImg")
 
+let moleBtn=document.getElementById("example")
+
+
 //this function generates a random place for the mole
 const playFunc=()=>{
 for (i=0;i<12;i++){place[i].src="blank.png"} //makes all the squares blank
@@ -16,7 +19,13 @@ function thePlay(){
     document.getElementById("play").disabled=true
 }
 
-let imgButton=document.createElement("Button")
-imgButton.innerHTML="seriously, where are you?"
-document.body.appendChild(imgButton)
+// let imgButton=document.createElement("Button")
+// imgButton.innerHTML="seriously, where are you?"
+// document.body.appendChild(imgButton)
 
+let scoreplace=document.getElementById("score")
+let total=0
+const addTotal=()=>{
+    total+=1
+    scoreplace.innerHTML=total
+}
