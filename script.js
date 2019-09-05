@@ -4,7 +4,7 @@ let place=document.getElementsByClassName("placeImg")   //creates array of mole 
 //this function generates a random place for the mole
 const playFunc=()=>{
 for (i=0;i<12;i++){
-    place[i].src="blank.png"                        //makes every img blank
+    place[i].src="./background.png"                        //makes every img blank
     place[i].removeEventListener("click",addTotal)  //removes add total function from every position
 }  
     let x=Math.floor(Math.random()*12)           //generates random number between 0-11
@@ -25,4 +25,6 @@ let total=0                                     //gloabal declare total
 const addTotal=()=>{                            //function called on click
     total+=1                                    //add 1 to total
     scoreplace.innerHTML=total                  //display total score
+    molePlace.src="./background.png"
 }
+
